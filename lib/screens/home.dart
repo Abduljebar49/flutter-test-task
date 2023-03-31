@@ -9,7 +9,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  var text = "Hello world";
+  var text = "Hello there";
   late Color backgroundColor;
   late int randomNumber;
 
