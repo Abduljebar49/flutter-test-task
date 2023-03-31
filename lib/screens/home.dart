@@ -46,13 +46,10 @@ class _HomeScreenState extends State<HomeScreen> {
   Color getRandomColor() {
     randomNumber = randomNumberGenerator();
     backgroundColor = Color(randomNumber);
-    print(randomNumber);
-
     return backgroundColor;
   }
 
   Color getInvertedTextColor() {
-    print(randomNumber);
     return Color(getTextColor(randomNumber));
   }
 }
