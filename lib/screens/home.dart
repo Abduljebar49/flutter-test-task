@@ -15,7 +15,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     backgroundColor = getRandomColor();
   }
@@ -47,9 +46,5 @@ class _HomeScreenState extends State<HomeScreen> {
     randomNumber = randomNumberGenerator();
     backgroundColor = Color(randomNumber);
     return backgroundColor;
-  }
-
-  Color getInvertedTextColor() {
-    return Color(getTextColor(randomNumber));
   }
 }
